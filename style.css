@@ -1,0 +1,95 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #f2f2f7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  background: white;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555;
+}
+
+.menu a:hover {
+  color: #6c3df4;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background: white;
+  margin: 40px;
+}
+
+.hero-text {
+  width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero-text span {
+  color: #6c3df4;
+}
+
+.hero-text p {
+  color: #555;
+  margin-top: 20px;
+}
+
+.form-box {
+  margin-top: 25px;
+}
+
+.form-box input {
+  padding: 12px;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+.form-box button {
+  padding: 12px 20px;
+  background: #6c3df4;
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+.hero-img img {
+  width: 350px;
+}
+
+.section {
+  background: white;
+  margin: 40px;
+  padding: 40px;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+}
+
+.card:hover {
+  background: #eee;
+}
